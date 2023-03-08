@@ -1,0 +1,23 @@
+#mail-link,
+#twitter-link {
+  text-decoration: none; 
+  color: #333;
+  font-size: 30px;
+  margin-right: 20px;
+  margin-top: 20px;
+  transition: all 0.2s ease;
+}
+
+#mail-link:hover,
+#twitter-link:hover {
+  color: #f00;
+  transform: scale(1.1);
+}
+
+
+.topic a {
+  display: inline-block;
+  margin-right: 1em;
+  align-items: center;
+  justify-content: center;
+}

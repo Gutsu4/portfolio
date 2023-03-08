@@ -1,0 +1,16 @@
+.text {
+    display: block;
+  }
+  
+  .text.hidden {
+    display: none;
+  }  
+
+  .arrow{
+    font-size: 30px;
+  }
+
+  .arrow:hover{
+    color:gray;
+  }
+  

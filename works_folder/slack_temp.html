@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="stylesheet" href="./../css/menu.css">
+    <link rel="stylesheet" href="./../css/text.css">
+    <link rel="stylesheet" href="./../css/slide.css">
+    <link rel="stylesheet" href="./../css/img.css">
+
+    <script src="./../js/btn_script.js"></script>
+    <script src="./../js/img_slide.js"></script>
+    <script src="./../js/sub_menu.js"></script>
+
+    <title>Work</title>
+  </head>
+  <body>
+    
+    <!--Menu-->
+    <div class="menu">
+      <h1>Menu</h1>
+      <a href="./../index.html" id="home-link">Home</a>
+      <a href="./../work.html" id="work-link">Work</a>
+      <div class="sub-menu" id="work-sub-menu">
+        <a href="./vba_work.html" id="vba_work-link">勤怠管理システム</a>
+        <a href="./vba_timetable.html" id="time_work-link">時間割自動作成システム</a>
+        <a href="./school_mng.html" id="school_work-link">カレッジ運営サイト</a>
+        <a href="./slack_temp.html" id="slack_work-link">SlackBot</a>
+      </div>
+      <a href="./../about.html" id="about-link">About</a>
+      <a href="./../contact.html" id="contact-link">Contact</a>
+    </div>
+    <!--main tittle-->
+    <header>
+        <h1>Works</h1>
+    </header>
+
+    <!--main contents-->
+    <main>   
+      <!--slide-->
+      <div class="slideshow-container">
+        <div class="slide-desc">
+            <h2>SlackBot - GAS</h2>
+        </div>
+          <div class="mySlides">
+            <img src="./../works_img/slackbot2/action.png" style="width:30%">
+            <img src="./../works_img/slackbot2/ret.png" style="width:60%">
+          <br>
+          <div class="text">
+            カレッジ内での検温忘れによる出欠確認が出来ない問題に対して<br>
+            検温表の更新を簡素化する目的で作成<br>
+            体温を記録するコマンドとチャンネルメンションで検温を促すコマンドを実装<br>
+          </div>
+          <div class="dots-container" style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+          </div>
+          <br>
+        </div>
+        <br>
+      </div>
+    </main>
+    
+   </body>
+</html>

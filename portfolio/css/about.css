@@ -1,0 +1,37 @@
+  /* タイトルのスタイル */
+  .topic h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  /* 本文のスタイル */
+  .topic .text {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+  }
+  
+  /* スキルと取得資格のリストのスタイル */
+  .topic ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 24px;
+  }
+  
+  .topic li {
+    margin-bottom: 8px;
+  }
+  
+  /* スキルの言語のスタイル */
+  .topic .language {
+    font-family: monospace;
+  }
+  
+  /* 取得資格の年月のスタイル */
+  .topic .date {
+    font-size: 14px;
+    color: #888888;
+    margin-top: 8px;
+  }
+  

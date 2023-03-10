@@ -1,0 +1,60 @@
+.menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:20px;
+    width: 300px;
+}
+
+.menu > h1{
+    color :#fff;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+}
+
+.menu > a.active::before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: #fff;
+    vertical-align: middle;
+}
+
+.menu > a:hover {
+    color: #c3c3c3;
+}
+
+#work-link,#about-link,#contact-link,#home-link,#time_work-link,#vba_work-link,#school_work-link,#slack_work-link,#shift_work-link{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    }
+  
+#work-link:hover,#about-link:hover,#contact-link:hover,#home-link:hover,#time_work-link:hover,#vba_work-link:hover,#school_work-link:hover,#slack_work-link:hover,#shift_work-link:hover{
+    background-color: #767676;
+}
+
+.sub-menu > a {
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.menu > a{
+    
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}
